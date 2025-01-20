@@ -1,0 +1,121 @@
+/* media query */
+
+/* media query for tablets */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    main {
+        padding: 30px 20px;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    .max-width {
+        padding: 0 20px;
+    }
+
+    .logo a {
+        font-size: 1.5rem;
+
+    }
+
+    .hero-section {
+        height: unset;
+    }
+
+    .hero-search-bar {
+        flex-direction: column;
+        width: 100%;
+    }
+    .popular-tour-section {
+        flex-direction: column;
+    }
+    .popular-tour-img img{
+        width: 80vw;
+    }
+    .destination-img-container .row {
+        height: unset;
+    }
+    .why-card{
+        grid-template-columns: 573px;
+        justify-self: center;
+    }
+    .card-3{
+        width: 573px;
+        grid-column: unset;
+    }
+}
+
+
+/* mobile device media query */
+@media only screen and (max-width: 576px) {
+    main {
+        padding: 30px 20px;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    .max-width {
+        padding: 0 20px;
+    }
+
+    .logo .brand-title {
+        font-size: 1.3rem;
+
+    }
+
+    .hero-section {
+        height: unset;
+    }
+
+    .hero-search-bar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 1.3rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 21px;
+        margin: 8px 0 32px;
+    }
+    .popular-tour-section {
+        flex-direction: column;
+    }
+    .popular-tour-img{
+        max-width: 350px;
+    }
+    .popular-tour-img img{
+        width: 100%;
+       
+    }
+    .destination-img-container .row {
+        height: unset;
+        flex-direction: column;
+    }
+    .destination-img-container {
+        gap: unset;
+    }
+    .why-card{
+        grid-template-columns: 335px;
+        justify-content: center;
+        direction: column;
+    }
+    .card-3{
+        width: 335px;
+        grid-column: unset;
+    }
+   
+}
