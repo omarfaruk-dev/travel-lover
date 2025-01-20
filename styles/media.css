@@ -47,6 +47,10 @@
         width: 573px;
         grid-column: unset;
     }
+    .simple-video-section {
+        flex-direction: column;
+    }
+    
 }
 
 
@@ -116,6 +120,12 @@
     .card-3{
         width: 335px;
         grid-column: unset;
+    }
+    .simple-video-section {
+        flex-direction: column;
+    }
+    .video {
+        max-width: 80vw;
     }
    
 }
